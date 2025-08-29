@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Entre em contato com Vinicius da Silva" />
+  <title>Contato • Vinicius da Silva</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="contato">
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">VS</a>
+      <button class="nav-toggle">☰</button>
+      <ul id="menu" class="menu">
+        <li><a href="index.html">Sobre mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+
+<section>
+  <h1>Fale comigo</h1>
+  <form class="contact-form" action="#" method="post" novalidate>
+    <div class="field">
+      <label for="nome">Nome</label>
+      <input id="nome" name="nome" type="text" placeholder="Seu nome completo" required />
+    </div>
+    <div class="field">
+      <label for="email">E-mail</label>
+      <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required />
+    </div>
+    <div class="field">
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem..." required></textarea>
+    </div>
+    <button class="btn" type="button" aria-disabled="true">Enviar (visual)</button>
+    <p class="muted">*Formulário apenas visual.</p>
+  </form>
+
+  <div class="contacts">
+    <p>📧 <a href="mailto:vinicius_bpa@hotmail.com">vinicius_bpa@hotmail.com</a></p>
+    <p>🔗 <a href="https://linkedin.com/in/viniciuss-da-silva" target="_blank">LinkedIn</a></p>
+    <p>📍 Santos - SP</p>
+  </div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Vinicius da Silva — Portfólio pessoal.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
