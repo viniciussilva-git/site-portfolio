@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head> 
+  <link rel="stylesheet" href="style.css">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Entre em contato com Vinicius da Silva" />
@@ -9,6 +10,15 @@
 </head>
 <body data-page="contato">
   <header class="site-header">
+    <nav>
+  <!-- Menu principal do site -->
+  <ul>
+    <li><a href="index.html">Sobre mim</a></li>
+    <li><a href="formacao.html">Formação</a></li>
+    <li><a href="portfolio.html">Portfólio</a></li>
+    <li><a href="contato.html">Contato</a></li>
+  </ul>
+</nav>
     <nav class="nav container">
       <a class="brand" href="index.html">VS</a>
       <button class="nav-toggle">☰</button>
@@ -19,6 +29,27 @@
         <li><a href="contato.html">Contato</a></li>
       </ul>
     </nav>
+    <main>
+  <section>
+    <h2>Formulário de Contato</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Vinicius Silva</p>
+</footer>
   </header>
   <main class="container">
 
@@ -56,4 +87,5 @@
   </footer>
   <script src="js/main.js"></script>
 </body>
+<script src="script.js"></script>
 </html>
